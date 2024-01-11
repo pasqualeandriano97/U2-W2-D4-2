@@ -1,0 +1,9 @@
+@import "scss/functions";
+@import "./scss/variables";
+
+$new-theme-colors: (
+  "lino": $indigo,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+@import "scss/bootstrap.scss";
